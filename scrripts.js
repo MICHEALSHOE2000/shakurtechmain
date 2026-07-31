@@ -1,6 +1,6 @@
 /**
  * script.js
- * TobbIe Gadget — Stage 4: Full interactive prototype
+ * Shakurtech Phone World — Stage 4: Full interactive prototype
  *
  * Features:
  * - Dynamically seeds 100+ products (follows img/nameofgadget.jpeg convention)
@@ -28,9 +28,9 @@
   /* ---------------------------
      CONFIGURATION & CONSTANTS
      --------------------------- */
-  const STORE_NAME = 'TobbIe Gadget'; // as confirmed
-  const WA_NUMBER = '+2347034774672'; // confirmed WhatsApp number (international format)
-  const LOCALSTORAGE_CART_KEY = 'tobbie_cart_v1'; // cart storage key
+  const STORE_NAME = 'Shakurtech Phone World';
+  const WA_NUMBER = '+2348072558401';
+  const LOCALSTORAGE_CART_KEY = 'shakurtech_cart_v1';
   const PRODUCTS_TO_SEED = 110; // seed ~110 products (100+ requirement)
   const PAGE_SIZE = 12; // items per "load more" page
   const IMAGE_PLACEHOLDER = 'img/placeholder.jpeg'; // fallback image
@@ -985,7 +985,7 @@
   /* ---------------------------
      Expose some helpers to window for debugging (dev only)
      --------------------------- */
-  window.Tobbie = {
+  window.Shakurtech = {
     state,
     PRODUCTS,
     formatCurrencyNGN,

@@ -1,4 +1,4 @@
-const whatsappNumber = "2348037793857";
+const whatsappNumber = "2348072558401";
 
 const modelStorage = {
   "iPhone 17": "128GB, 256GB, 512GB",
@@ -145,12 +145,12 @@ function createPlaceholderImage(model, condition) {
         </linearGradient>
       </defs>
       <rect width="900" height="675" fill="url(#bg)"/>
-      <circle cx="724" cy="118" r="170" fill="#d8b45a" opacity=".24"/>
-      <circle cx="145" cy="576" r="190" fill="#0ea36f" opacity=".12"/>
+      <circle cx="724" cy="118" r="170" fill="#2071ff" opacity=".24"/>
+      <circle cx="145" cy="576" r="190" fill="#1457d9" opacity=".12"/>
       <rect x="326" y="80" width="248" height="500" rx="48" fill="#12151d"/>
       <rect x="344" y="100" width="212" height="460" rx="38" fill="url(#phone)"/>
       <rect x="407" y="122" width="86" height="22" rx="11" fill="#030407"/>
-      <path d="M392 410c44-64 86-92 132-84 32 6 56 28 72 66v168H344v-70c16-13 32-40 48-80z" fill="#d8b45a" opacity=".42"/>
+      <path d="M392 410c44-64 86-92 132-84 32 6 56 28 72 66v168H344v-70c16-13 32-40 48-80z" fill="#2071ff" opacity=".42"/>
       <text x="450" y="630" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#111318">${label}</text>
     </svg>
   `;
@@ -159,7 +159,7 @@ function createPlaceholderImage(model, condition) {
 }
 
 function createShopPlaceholderImage(index) {
-  const label = `Skyfonze Limited Shop ${index}`;
+  const label = `Shakurtech Phone World Shop ${index}`;
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675">
       <defs>
@@ -169,18 +169,18 @@ function createShopPlaceholderImage(index) {
         </linearGradient>
         <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1">
           <stop offset="0%" stop-color="#ffffff" stop-opacity=".62"/>
-          <stop offset="100%" stop-color="#d8b45a" stop-opacity=".18"/>
+          <stop offset="100%" stop-color="#2071ff" stop-opacity=".18"/>
         </linearGradient>
       </defs>
       <rect width="900" height="675" fill="url(#bg)"/>
       <rect x="112" y="154" width="676" height="366" rx="28" fill="#f6f7f9"/>
       <rect x="112" y="154" width="676" height="84" rx="28" fill="#111318"/>
-      <text x="450" y="209" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">SKYFONZE LIMITED</text>
+      <text x="450" y="209" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">SHAKURTECH PHONE WORLD</text>
       <rect x="162" y="278" width="250" height="194" rx="16" fill="url(#glass)"/>
       <rect x="488" y="278" width="250" height="194" rx="16" fill="url(#glass)"/>
       <rect x="235" y="326" width="104" height="146" rx="22" fill="#151923"/>
       <rect x="560" y="326" width="104" height="146" rx="22" fill="#151923"/>
-      <rect x="0" y="520" width="900" height="155" fill="#d8b45a" opacity=".18"/>
+      <rect x="0" y="520" width="900" height="155" fill="#2071ff" opacity=".18"/>
       <text x="450" y="602" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">${label}</text>
     </svg>
   `;
@@ -349,7 +349,7 @@ heroDots.forEach((dot) => {
 
 document.querySelectorAll(".hero-slide img").forEach((image, index) => {
   image.addEventListener("error", () => {
-    image.src = createPlaceholderImage(`Hero iPhone ${index + 1}`, "Skyfonze");
+    image.src = createPlaceholderImage(`Hero iPhone ${index + 1}`, "Shakurtech");
   }, { once: true });
 });
 
